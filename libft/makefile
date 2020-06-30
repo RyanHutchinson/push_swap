@@ -47,3 +47,4 @@ test: re
 
 norm:
 	@norminette -R CheckForbiddenSourceHeader
+

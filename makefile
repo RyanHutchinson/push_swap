@@ -22,11 +22,9 @@ $(NAME): libft
 
 $(NAME1):	$(NAME)
 	@gcc $(FLAGS) checker_main.c $(LIB) -o $(NAME1)
-	@echo "amoepi";
 
 $(NAME2):	$(NAME)
 	@gcc $(FLAGS) push_swap_main.c $(LIB) -o $(NAME2)
-	@echo "amoepi";
 
 clean:
 	@/bin/rm -f $(OBJ)
